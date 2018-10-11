@@ -4,8 +4,8 @@ public class CompararNúmeros {
 	
 	public static void main(String[] args) {
 		Random r = new Random(System.nanoTime());
-		int numero1 = r.nextInt(1000);
-		int numero2 = r.nextInt(1000);
+		int numero1 = r.nextInt(749) + 5;
+		int numero2 = r.nextInt(749) + 5;
 		System.out.println("Número 1: " + numero1);
 		System.out.println("Número 2: " + numero2);
 		if (numero1 > numero2) {
