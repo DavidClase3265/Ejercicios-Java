@@ -23,7 +23,7 @@ public class Primos {
 				resto = candidato % divisor;
 				divisor--;
 			} while (divisor > 1 && resto > 0);
-			if (resto == 0) {
+			if (resto != 0) {
 				System.out.println(candidato + " es primo");
 				n--;
 			}
