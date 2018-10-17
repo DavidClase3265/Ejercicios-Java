@@ -10,10 +10,11 @@ public class Divisible {
 			int x = in.nextInt();
 			System.out.println("Introduce otro número: ");
 			int y = in.nextInt();
-			if (x % y == 0)
-				System.out.println(x + " es divisible entre " + y);
-			else
-				System.out.println(x + " no es divisible entre " + y);
+			System.out.println(x + (x % y == 0 ? "" : " no") + " es divisible entre " + y);
+//			if (x % y == 0)
+//				System.out.println(x + " es divisible entre " + y);
+//			else
+//				System.out.println(x + " no es divisible entre " + y);
 		}
 	}
 	
