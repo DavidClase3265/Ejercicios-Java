@@ -26,19 +26,24 @@ public class CruzAsteriscos {
 //			System.out.println();
 //		}
 		
+//		for (int i=0; i<n; i++) {
+//			for (int j=0; j<m; j++) {
+//				if (i == n/2 || j==m/2) {
+//					System.out.print("*");
+//				}
+//				else {
+//					System.out.print(" ");
+//				}
+//			}
+//			System.out.println();
+//		}
+		
 		for (int i=0; i<n; i++) {
-			for (int j=0; j<m; j++) {
-				if (i == n/2 || j==m/2) {
-					System.out.print("*");
-				}
-				else {
-					System.out.print(" ");
-				}
-			}
+			for (int j=0; j<m; j++)
+				System.out.print((i == n/2 || j==m/2) ? "*" : " ");
 			System.out.println();
 		}
 		
-
 	}
 
 }
